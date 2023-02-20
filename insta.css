@@ -1,0 +1,145 @@
+*{
+  background: #222;
+  padding: 0;
+  margin: 0;
+  font-family: Madehand, Sans-Serif;
+}
+@font-face{
+  font-family: Madehand;
+  src: url(images/Madehand-Regular.ttf);
+}
+.profile{
+  padding: 9px;
+  display: flex;
+  color: #fff;
+}
+.mypl{
+  border-radius: 50%;
+  background: #bbb;
+  padding: 4px;
+  height: 40px;
+  margin-right: 15px;
+}
+.mypl1{
+  border-radius: 50%;
+  background: linear-gradient(to right,#d976e3,#70c8de);
+  padding: 1px;
+  height: 30px;
+  margin: 5px;
+  display: flex;
+  max-width: 31.5px;
+}
+.feed{
+  color: #fff;
+}
+.feedIN{
+  color: #fff;
+  display: flex;
+}
+.posct{
+  display: flex;
+}
+.xett{
+  margin-top: 10px;
+  margin-bottom: 3px;
+  width: 100%;
+  height: 0.5px;
+  background-color: #888;
+}
+.names{
+  display: flex;
+  color: #fff;
+  text-align: left;
+  justify-content: left;
+}
+.empty{
+  display: inline-block;
+  width: 28px;
+  height: 10px;
+  background-color: transparent;
+}
+.empty1{
+  display: inline-block;
+  width: 15px;
+  height: 10px;
+  background-color: transparent;
+}
+.start{
+  display: inline-block;
+  padding-top: 5px;
+}
+.end{
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.feed-name{
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  padding-top: 10px;
+}
+.feed-name p{
+  font-size: 20px;
+}
+.photo{
+  max-width: 100%;
+}
+.like{
+  color: #bbb;
+  cursor: pointer;
+}
+.like:hover{
+  color: #f00;
+  font-weight: bold;
+}
+.buttons{
+  padding: 3px;
+  margin-top: 8px;
+  margin-left: 10px;
+  align-items: left;
+}
+.trusted{
+  color: #37b8f7;
+  font-size: 18px;
+  padding-right: 5px;
+}
+.trusted:hover{
+  color: #000;
+  transition: 3s;
+}
+.material-icons.md-12 { font-size: 12px; }
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-28 { font-size: 28px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.share{
+  cursor: pointer;
+}
+.bookmark{
+  color: #6fbdd0;
+  position: absolute;
+  right: 0;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+.my-mes{
+  padding: 10px;
+}
+.chat{
+  color: #bbb;
+  cursor: pointer;
+}
+.my-mes-nm{
+  display: inline-block;
+  border-radius: 15%;
+  background: #bbb;
+  font-family: cursive;
+  margin-right: 5px;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+.has-insta{
+  color: #a75bcf;
+}
